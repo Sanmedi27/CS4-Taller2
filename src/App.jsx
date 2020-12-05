@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import Formulario from "./components/Formulario";
 import Header from './components/Header'
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
         <Row>
           <Col xs={6} md={4}></Col>
           <Col xs={6} md={4}>
-            
+            <Formulario/>
           </Col>
           <Col xs={6} md={4}></Col>
         </Row>
