@@ -12,7 +12,7 @@ const useSelect = (initialState, options, label) => {
         onChange={(e) => setState(e.target.value)}
       >
         {options.map((option) => (
-          <option key={option.value}>{option.label}</option>
+          <option key={option.id} value={option.id}>{option.label}</option>
         ))}
       </Form.Control>
     </>
